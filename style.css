@@ -1,0 +1,203 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+
+.hero-image {
+  background-image: url("/Users/lauraoberwetter/bootcamp/Homework/02homework/VIsual/noGreen.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "smokum", serif;
+  font-size: 7em;
+}
+a:link {
+  color: #7C5B53;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7C5B53;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F79781;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+/* About section */
+
+#About {
+  background-color: #F79781;
+}
+
+#About h1 {
+  letter-spacing: 5px;
+  text-align: left;
+  font-family: "smokum", serif;
+  font-size: 4em;
+  color: #7C5B53;
+  padding-top: 3%;
+  padding-left: 2%;
+}
+
+#About p {
+  text-align: center;
+  font-family: "futura", sans-serif;
+  font-size: 1.5em;
+  color: black;
+  padding: 5% 7% 10% 7%;
+}
+
+/* Work section */
+
+#Work {
+  background-color: #AEB7BE;
+
+}
+
+#Work h1 {
+  letter-spacing: 5px;
+  text-align: center;
+  font-family: "smokum", serif;
+  font-size: 4em;
+  color: #FFD19E;
+  padding-top: 3%;
+  padding-left: 2%;
+}
+
+/* Work gallery images */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  border: 5px solid black;
+  width: 25%;
+  margin: 20px;
+}
+
+#gib {
+  border: 5px solid black;
+  width: 70%;
+  margin: 20px;
+}
+
+.card:hover {
+  opacity: 30%;
+}
+
+.card img {
+  height: auto;
+  width: 100%;
+}
+
+/* Work gallery text */
+
+.imgTitle {
+  text-align: center;
+  font-family: "futura", sans-serif;
+  font-size: 1em;
+  color: black;
+  padding: 5%;
+  background-color: white;
+}
+
+
+/* Contact section */
+
+#Contact {
+  background-color: #F6B689;
+}
+
+#Contact h1 {
+  letter-spacing: 5px;
+  text-align: right;
+  font-family: "smokum", serif;
+  font-size: 4em;
+  color: #978A91;
+}
+
+/* Contact text */
+
+.info {
+  text-align: center;
+  display: block;
+  color: white;
+  font-family: "futura", sans-serif;  
+  font-size: 1em;
+  border: 5px solid black;
+  margin-bottom: 30px;
+}
+
+
+/* media query response */
+
+/* breakpoint 1 */
+@media only screen and (max-width: 1000px) {
+
+.hero-image {
+  background-image: url("/Users/lauraoberwetter/Desktop/background.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* text styling of nav */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: space-evenly;
+  font-family: "smokum", serif;
+  font-size: 4em;
+  color: #F6B689;
+  letter-spacing: 5px;
+  
+}
+
+/* links for text in nav */
+
+a:link {
+  color: #F6B689;
+  text-decoration: none;
+} 
+
+a:visited {
+  color: #F6B689;
+  text-decoration: none;
+
+a:hover {
+  color: #F79781;
+  border-radius: 5px;
+  text-decoration: none;
+} 
+
+
+/* tablet */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* phones */
+@media only screen and (max-width: 600px) {
+
+}
